@@ -63,7 +63,7 @@ export async function commitAndPushBranch({
   remote = "origin",
   commitMessage,
   gitAuthorInfo,
-  branch = "scaffolder",
+  branch = "main",
 }: {
   dir: string;
   auth: { username: string; password: string } | { token: string };
