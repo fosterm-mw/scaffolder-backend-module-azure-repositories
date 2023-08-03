@@ -172,6 +172,7 @@ spec:
         sourceBranch: <MY_AZURE_REPOSITORY_BRANCH>
         targetBranch: "main"
         repoId: <MY_AZURE_REPOSITORY>
+        server: <MY_AZURE_SERVER(default:dev.azure.com)>
         title: ${{ parameters.name }}
         project: <MY_AZURE_PROJECT>
         supportsIterations: false
